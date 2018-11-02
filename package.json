@@ -1,0 +1,24 @@
+{
+  "name": "ionic-aws",
+  "version": "1.0.0",
+  "description": "Backend for File upload to S3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Jordon Leach",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.348.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "helmet": "^3.14.0",
+    "morgan": "^1.9.1"
+  }
+}
